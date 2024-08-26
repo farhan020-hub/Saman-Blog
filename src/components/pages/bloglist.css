@@ -1,0 +1,87 @@
+.containers {
+    
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  h2{
+    font-size: 50px;
+    text-align: center;
+    margin-right: 25px;
+    font-family: 'Lora', serif;
+    text-decoration: underline;
+  }
+  
+  .containers img {
+    width: auto; /* Fixed width */
+    height: auto; /* Fixed height */
+    object-fit: cover; /* This will prevent distortion */
+  }
+
+  .containers h2 {
+    color: #050505;
+    font-weight: 1000;  
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Lora', serif;
+    text-decoration: underline;
+  
+  }
+  hr {
+
+    border-top: 1px solid rgb(0, 0, 0); /* Change 'black' to your desired color */
+  } 
+  .container h3 {
+    color: #f6eeee;
+  }
+  
+  .card-containers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0px;
+    gap: 20px;
+    justify-content: center;
+}
+ 
+  
+  @media screen and (max-width: 950px) {
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      padding: 10px;
+      gap: 40px; /* Space between cards */
+      justify-content: space-between; /* Center cards in the container */
+    }
+  
+    .containers img {
+      width: 100%; /* Fixed width */
+      height: auto; /* Fixed height */
+    }
+
+    .container h2{
+      font-size: 40px;
+      text-align: center;
+      align-items: center;
+
+    }
+
+    .card-container {
+      
+      padding: 10px;
+      gap: 40px;
+      margin-top: 0px;
+      justify-content: center;
+  }
+
+  }
+

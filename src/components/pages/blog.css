@@ -1,0 +1,46 @@
+/******************************************************************************/
+/* BLOGS CSS */
+/******************************************************************************//* blog.css */
+
+.blog-container {
+  margin-top: 100px;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 14px 8px rgba(0, 0, 0, 0.1);
+  background-color: wheat;
+}
+
+.blog-container h1 {
+  font-size: 2em;
+  color: #333;
+  font-family: 'Playfair Display', serif;
+  margin-top: 100px;
+}
+
+.blog-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-container p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #444;
+}
+
+
+@media screen and (max-width: 768px) {
+  .blog-container h1 {
+    font-size: 25px;
+  }
+
+  .blog-container p {
+    font-size: 1em;
+  }
+}
